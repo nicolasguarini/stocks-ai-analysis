@@ -10,7 +10,7 @@ The goal of this analysis is to evaluate the riskness of the stocks using daily 
 
 The parameters used to evaluate the riskiness of the actions are:
 
-- **Volatility**;
+- **Average Daily Volatility**;
 - **Volume Standard Deviation**;
 - **Price Standard Deviation**;
 - **Trailing P/E**: high values (> 13-15) could mean that the company is overrated and it could have big price swings;
@@ -28,7 +28,7 @@ We can to identify three stock clusters with similar risk levels:
 - Central cluster (purple): medium price-action risk and medium-high fundamental risk;
 - Cluster on the right (yellow): medium-high price-action risk and medium fundamental risk.
 
-The use cases of such an analysis can be many. For example, an asset management / investment firm could use clustering of this type to propose different types of stock / ETF packages to clients with similar risk propension propensity. It could even be done clustering with the same objectives (identifying various levels of risk appetite) on customer data so that it can be matched with the most suitable actions for them.
+The use cases of such an analysis can be many. For example, an asset management / investment firm could use clustering of this type to propose different types of stock / ETF packages to clients with similar risk propension. It could even be done clustering with the same objectives (identifying various levels of risk appetite) on customer data so that it can be matched with the most suitable actions for them.
 
 ## Part 2: Predictive Task
 
